@@ -11,6 +11,7 @@ body{
 
 img{
     max-width: 100%;
+    max-height: 100%;
 }
 
 a{
@@ -151,36 +152,49 @@ h1{
     background-color: #23272A;
 }
 
+/* MAIN SECTION  */
+
 /* Sezioni dispari */
 .odd{
-    background-color: lemonchiffon;
+    background-color: #FFFFFF;
 }
 
 /* Sezioni pari */
 .even{
-    background-color: grey;
+    background-color: #F6F6F6;
 }
 
 .main{
     display: flex;
+    align-items: center;
     border: 1px dashed black;
 
     /* debug */
-    height: 250px;
+    height: 400px;
 }
 
-.right-content{
-    width: 60%;
-
-    /* debug */
-    background-color: yellow;
+.text-content{
+    width: 50%;
+    padding: 50px;
 }
 
-.left-content{
-    width: 40%;
-    
-    /* debug */
-    background-color: green;
+.text-content h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.text-content p{
+    line-height: 25px;
+    font-size: 18px;
+
+}
+
+.img-content{
+    width: 50%;
+}
+
+.img-content img{
+    width: 100%;
 }
 
 .reverse{
