@@ -1,0 +1,188 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* COMMON */
+.container{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px dashed black;
+    /* Per i monitor landscape si usa max-width altrimenti sarà tutto dilatato */
+    max-width: 1000px;
+}
+
+section{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+/* HEADER */
+header{
+    display: flex;
+    height: 70px;
+    /* Per centrare in verticale, nell'header che spesso hanno un'altezza fissa, si usa line-height */
+    line-height: 70px;
+    
+
+
+    /* debug */
+    min-height: 50px;
+    background-color: aqua;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    
+
+    /* debug */
+    background-color: bisque;
+}
+
+.link ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu div{
+    /* padding: 5px; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo{
+    width: 25%;
+}
+
+.login{
+    width: 25%;
+    text-align: right;
+}
+
+.link{
+    flex-grow: 1;
+}
+
+/* MAIN */
+/* Top Section */
+.top-s{
+    background-color: blue;
+}
+
+/* only top-s content */
+.top-content{
+    width: 40%;
+    margin: 0 auto;
+    border: 1px dashed black;
+
+
+    /* debug */
+    background-color: purple;
+    height: 200px;
+}
+
+/* Sezioni dispari */
+.odd{
+    background-color: lemonchiffon;
+}
+
+/* Sezioni pari */
+.even{
+    background-color: grey;
+}
+
+.main{
+    display: flex;
+    border: 1px dashed black;
+
+    /* debug */
+    height: 250px;
+}
+
+.right-content{
+    width: 60%;
+
+    /* debug */
+    background-color: yellow;
+}
+
+.left-content{
+    width: 40%;
+    
+    /* debug */
+    background-color: green;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+/* only bottom-s content */
+.bottom-content{
+    /* debug */
+    height: 500px;
+    background-color: tomato;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(29, 35, 35);
+    width: 100%;
+
+
+}
+
+/* Top Section of the footer */
+
+
+.top-bottom-c{
+    display: flex;
+    height: 200px;
+}
+
+.col-30{
+    background-color: red;
+    width: 30%;
+
+}
+
+.col-70{
+    background-color: yellowgreen;
+    width: 70%;
+    display: flex;
+}
+
+.col-25{
+    background-color: blueviolet;
+    width: 25%;
+    border: 1px dashed black;
+}
+
+/* Bottom Section of the footer */
+.bottom-bottom-s{
+    padding: 10px 0px;
+}
+
+.bottom-bottom{
+    background-color: aqua;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.bottom-logo{
+    background-color: rgb(214, 150, 150);
+}
