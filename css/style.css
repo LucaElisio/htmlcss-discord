@@ -5,10 +5,22 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* COMMON */
 .container{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     border: 1px dashed black;
     /* Per i monitor landscape si usa max-width altrimenti sarà tutto dilatato */
@@ -22,55 +34,71 @@ section{
 
 ul{
     list-style-type: none;
+}
 
+.button{
+    padding: 8px 15px;
+    border-radius: 20px;
 }
 
 /* HEADER */
 header{
     display: flex;
     height: 70px;
+    background-color: #255EE9;
     /* Per centrare in verticale, nell'header che spesso hanno un'altezza fissa, si usa line-height */
     line-height: 70px;
-    
-
-
-    /* debug */
     min-height: 50px;
-    background-color: aqua;
+    padding: 10px 0px;
+
 }
 
 .menu{
     display: flex;
     align-items: center;
-    
-
-    /* debug */
-    background-color: bisque;
 }
 
-.link ul{
+.link-c ul{
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.menu div{
-    /* padding: 5px; */
+.link-c ul li{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.menu > div{
+    /* debug */
+    /* border: 1px dashed black; */
+}
+
+.logo-c{
+    width: 20%;
+    padding-left: 10px;
+}
+
+.logo-c img{
+    display: flex;
+}
+
+.login-c{
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.link-c{
+    width: 60%;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.logo{
-    width: 25%;
-}
-
 .login{
-    width: 25%;
-    text-align: right;
-}
-
-.link{
-    flex-grow: 1;
+    font-weight: 600;
+    background-color: white;
 }
 
 /* MAIN */
@@ -143,8 +171,6 @@ footer{
 }
 
 /* Top Section of the footer */
-
-
 .top-bottom-c{
     display: flex;
     height: 200px;
