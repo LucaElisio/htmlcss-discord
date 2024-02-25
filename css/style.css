@@ -82,11 +82,6 @@ header{
     color: white;
 }
 
-.menu > div{
-    /* debug */
-    /* border: 1px dashed black; */
-}
-
 .logo-c{
     width: 20%;
     padding-left: 10px;
@@ -199,10 +194,25 @@ h1{
 
 /* BOTTOM SECTION */
 
+.bottom-s{
+    padding-bottom: 100px;
+}
+
 .bottom-text{
     width: 50%;
     margin: 0 auto;
     text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    margin: 30px 0px 50px 0px;
+}
+
+.button.bottom{
+    color: white;
+    background-color: #7289DA;
+
 }
 
 /* FOOTER */
