@@ -10,6 +10,7 @@ body{
 }
 
 img{
+    width: 100%;
     max-width: 100%;
     max-height: 100%;
 }
@@ -40,6 +41,16 @@ ul{
 .button{
     padding: 12px 20px;
     border-radius: 25px;
+}
+
+h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+p{
+    line-height: 28px;
+    font-size: 18px;
 }
 
 /* HEADER */
@@ -83,6 +94,7 @@ header{
 
 .logo-c img{
     display: flex;
+    width: 60%;
 }
 
 .login-c{
@@ -110,14 +122,12 @@ header{
     background-size: 100%;
     background-repeat: no-repeat;
 
-    /* debug */
-    height: 600px;
 }
 
 /* only top-s content */
 .top-content{
     width: 40%;
-    margin: 250px auto;
+    margin: 150px auto;
     border: 1px dashed black;
     text-align: center;
     color: white;
@@ -128,10 +138,10 @@ h1{
     margin-bottom: 20px;
 }
 
-.top-content > p{
+/* .top-content > p{
     line-height: 30px;
     font-size: 20px;
-}
+} */
 
 .top-content > div {
     margin-top: 20px;
@@ -168,25 +178,11 @@ h1{
     display: flex;
     align-items: center;
     border: 1px dashed black;
-
-    /* debug */
-    height: 400px;
 }
 
 .text-content{
     width: 50%;
     padding: 50px;
-}
-
-.text-content h2{
-    font-size: 45px;
-    margin-bottom: 20px;
-}
-
-.text-content p{
-    line-height: 25px;
-    font-size: 18px;
-
 }
 
 .img-content{
@@ -201,19 +197,18 @@ h1{
     flex-direction: row-reverse;
 }
 
-/* only bottom-s content */
-.bottom-content{
-    /* debug */
-    height: 500px;
-    background-color: tomato;
+/* BOTTOM SECTION */
+
+.bottom-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* FOOTER */
 footer{
     background-color: rgb(29, 35, 35);
     width: 100%;
-
-
 }
 
 /* Top Section of the footer */
