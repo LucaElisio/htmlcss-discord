@@ -24,7 +24,6 @@ a{
 .container{
     width: 100%;
     margin: 0 auto;
-    border: 1px dashed black;
     /* Per i monitor landscape si usa max-width altrimenti sarà tutto dilatato */
     max-width: 1000px;
 }
@@ -69,6 +68,17 @@ p{
     font-size: 18px;
 }
 
+hr{
+    width: 60%;
+    margin: 10px auto;
+    border: 1px solid #7289DA;
+}
+
+.wave{
+    filter: invert(100%) sepia(8%) saturate(62%) hue-rotate(205deg) brightness(112%) contrast(93%);
+    display: block;
+}
+
 /* HEADER */
 header{
     display: flex;
@@ -95,7 +105,7 @@ header{
 .link-c ul li{
     font-size: 15px;
     font-weight: 600;
-    color: white;
+    color: #ffffff;
 }
 
 .logo-c{
@@ -134,7 +144,7 @@ header{
 .top-content{
     width: 60%;
     margin: 150px auto;
-    border: 1px dashed black;
+
     text-align: center;
     color: white;
 }
@@ -159,17 +169,19 @@ h1{
 /* Sezioni dispari */
 .odd{
     background-color: #FFFFFF;
+    padding: 100px 0px 100px 0px;
 }
 
 /* Sezioni pari */
 .even{
     background-color: #F6F6F6;
+    padding: 100px 0px 100px 0px;
+
 }
 
 .main{
     display: flex;
     align-items: center;
-    border: 1px dashed black;
 }
 
 .text-content{
@@ -229,6 +241,7 @@ footer{
     font-size: 25px;
     color: #7289DA;
     margin-bottom: 10px;
+
 }
 
 .col-30 div{
@@ -254,7 +267,6 @@ footer{
 
 .col-25{
     width: 25%;
-    border: 1px dashed black;
 }
 
 .col-25 .first-li{
