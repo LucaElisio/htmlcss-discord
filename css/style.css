@@ -41,6 +41,22 @@ ul{
 .button{
     padding: 12px 20px;
     border-radius: 25px;
+    font-weight: 500;
+}
+
+.white{
+    color: #23272A;
+    background-color: white;
+}
+
+.black{
+    color: white;
+    background-color: #23272A;
+}
+
+.blue{
+    color: white;
+    background-color: #7289DA;
 }
 
 h2{
@@ -104,11 +120,6 @@ header{
     padding-right: 10px;
 }
 
-.login{
-    font-weight: 600;
-    background-color: white;
-}
-
 /* MAIN */
 
 /* Top Section */
@@ -121,7 +132,7 @@ header{
 
 /* only top-s content */
 .top-content{
-    width: 40%;
+    width: 60%;
     margin: 150px auto;
     border: 1px dashed black;
     text-align: center;
@@ -133,29 +144,15 @@ h1{
     margin-bottom: 20px;
 }
 
-/* .top-content > p{
-    line-height: 30px;
-    font-size: 20px;
-} */
-
 .top-content > div {
     margin-top: 20px;
 
 }
 
-.white{
-    margin: 0px 20px;
-    color: #23272A;
-    font-size: 20px;
-    background-color: white;
+.top-button a{
+    margin: 0 20px;
 }
 
-.black{
-    margin: 0px 20px;
-    color: white;
-    font-size: 20px;
-    background-color: #23272A;
-}
 
 /* MAIN SECTION  */
 
@@ -204,16 +201,12 @@ h1{
     text-align: center;
 }
 
-h3{
+.bottom-text h3{
     font-size: 30px;
     margin: 30px 0px 50px 0px;
 }
 
-.button.bottom{
-    color: white;
-    background-color: #7289DA;
 
-}
 
 /* FOOTER */
 footer{
@@ -223,42 +216,65 @@ footer{
 
 /* Top Section of the footer */
 .top-bottom-c{
+    margin-top: 50px;
     display: flex;
-    height: 200px;
 }
 
 .col-30{
-    background-color: red;
     width: 30%;
+    padding: 20px;
+}
 
+.col-30 h3{
+    font-size: 25px;
+    color: #7289DA;
+    margin-bottom: 10px;
+}
+
+.col-30 div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.col-30 img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.col-30 span, i{
+    color: white;
+    margin-right: 10px;
 }
 
 .col-70{
-    background-color: yellowgreen;
     width: 70%;
     display: flex;
 }
 
 .col-25{
-    background-color: blueviolet;
     width: 25%;
     border: 1px dashed black;
 }
 
-/* Bottom Section of the footer */
-.bottom-bottom-s{
-    padding: 10px 0px;
+.col-25 .first-li{
+    color: #7289DA;
 }
 
+.col-25 li{
+    margin-bottom: 15px;
+    color: white;
+
+}
+
+/* Bottom Section of the footer */
 .bottom-bottom{
-    background-color: aqua;
-    height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .bottom-logo{
-    background-color: rgb(214, 150, 150);
+    display: flex;
+    align-items: center;
 }
-
